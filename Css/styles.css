@@ -1,0 +1,134 @@
+body {
+  margin:0;
+  background-color:#ededed;
+  text-align: center;
+}
+
+.main-container {
+  margin: 0 auto 0 auto;
+  width: 1005;
+}
+
+
+.intro_logo{
+  height: 200px;
+  width: 200px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
+.header {
+  background-color: #b0eacd;
+  padding: 30px 0 20px 0;
+}
+
+.header p{
+  font-size: 22px;
+}
+
+.list {
+  display:inline;
+  position: absolute;
+  right: 20px;
+  top : 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.list li {
+  display:inline-block;
+  margin-right: 10px;
+  background-color: #f35588;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+
+}
+
+.list li:active {
+  display:inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.list li:last-child {
+  margin:0px;
+}
+
+.header h1 {
+  font-family: 'Dancing Script' ;
+  font-size: 8em;
+  color: #fd5e53;
+  margin-bottom: 0;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+}
+
+.middle-container h1 {
+  font-family: 'Dancing Script',sans-serif;
+  color: #fd5e53;
+  margin-bottom: 0px;
+  font-size: 5em;
+}
+.DoWhat {
+  width: 200px;
+  height: 200px;
+  border-radius: 12%;
+}
+
+.skill_logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 25px;
+
+}
+
+.skill_row {
+  width: 50%;
+  margin: 60px auto 50px auto;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+h3 {
+  color: #b21f66;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skill_row p {
+  font-size: 20px;
+  color:#21243d;
+  font-weight: bold;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 30%;
+  border-color: white;
+}
+
+.footer {
+  background-color: #21243d;
+  padding: 20px;
+}
+
+.footer h3 {
+  font-weight: lighter;
+  color:#f64b3c
+}
+.Social_Media_box img {
+  width: 50px;
+  height:50px;
+  margin-right: 6px;
+}
